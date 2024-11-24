@@ -1,5 +1,26 @@
 const calculationsHistory = []; //Initializing an empty array where all of the objects will be placed
 
+const numOne = document.getElementsByName('num-one-name');
+const numOneValue = numOne.value;
+
+function clickAdd() {
+    return alert("Clicked add!");
+};
+
+function clickSubtract() {
+    return alert("Clicked subtract!");
+};
+
+function clickMultiply() {
+    return alert("Clicked multiply!");
+};
+
+function clickDivide() {
+    return alert("Clicked divide!");
+};
+
+
+
 /*Add function will only take 2 parameters. This function will calculate the formula, 
 log the equation and result for the user, and return.*/
 function add(num1, num2) {
